@@ -115,7 +115,7 @@ def print_colored_text(text, hex_color):
     print(ansi_code)
 
 def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')') 
+    os.system('cls' if os.name == 'nt' else 'clear')
 def success():
     print_colored_text("Success ☆", "#FFDD33")
 #Service functions
